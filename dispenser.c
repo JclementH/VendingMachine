@@ -11,17 +11,17 @@ int getCount(int selected, int quantity) {
 	candies.cost = 10;
 	//Declaration for chips
 	struct inventoryInDispenser chips;
-	strcpy(candies.nameOfItem, "chips");
+	strcpy(chips.nameOfItem, "chips");
 	chips.numberOfItems = 100;
 	chips.cost = 15;
 	//Declaration for cookies
 	struct inventoryInDispenser cookies;
-	strcpy(candies.nameOfItem, "cookies");
+	strcpy(cookies.nameOfItem, "cookies");
 	cookies.numberOfItems = 100;
 	cookies.cost = 15;
 	//Declaration for soda
 	struct inventoryInDispenser soda;
-	strcpy(candies.nameOfItem, "soda");
+	strcpy(soda.nameOfItem, "soda");
 	soda.numberOfItems = 100;
 	soda.cost = 25;
 	//
